@@ -1,10 +1,11 @@
 [package]
 name = "kira_cdh_compat_clstr"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "GPL-2.0-only"
 description = "CD-HIT-compatible .clstr writer/reader and a semantic diff CLI"
 repository = "https://github.com/ARyaskov/kira_cdh_compat_clstr"
+documentation = "https://docs.rs/kira_cdh_compat_clstr"
 keywords = ["bioinformatics", "cd-hit", "cluster"]
 categories = ["science"]
 

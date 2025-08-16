@@ -1,0 +1,22 @@
+[package]
+name = "kira_cdh_compat_clstr"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-2.0-only"
+description = "CD-HIT-compatible .clstr writer/reader and a semantic diff CLI"
+repository = "https://github.com/ARyaskov/kira_cdh_compat_clstr"
+keywords = ["bioinformatics", "cd-hit", "cluster"]
+categories = ["science"]
+
+[lib]
+name = "kira_cdh_compat_clstr"
+path = "src/lib.rs"
+
+[[bin]]
+name = "clstr-diff"
+path = "src/bin/clstr-diff.rs"
+
+[dependencies]
+
+[dev-dependencies]
+"tempfile" = "3"

@@ -1,6 +1,6 @@
 [package]
 name = "kira_cdh_compat_clstr"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 license = "GPL-2.0-only"
 description = "CD-HIT-compatible .clstr writer/reader and a semantic diff CLI"
